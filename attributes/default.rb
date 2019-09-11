@@ -8,7 +8,7 @@ default['java']['install_flavor'] = 'openjdk'
 default['java']['accept_license_agreement'] = true
 
 # nexus configuration
-default['nexus_repository_manager']['version'] = '3.15.2-01'
+default['nexus_repository_manager']['version'] = '3.18.1-01'
 default['nexus_repository_manager']['nexus_download_url'] = "https://download.sonatype.com/nexus/3/nexus-#{node['nexus_repository_manager']['version']}-unix.tar.gz"
 default['nexus_repository_manager']['nexus_download_sha256'] = 'acde357f5bbc6100eb0d5a4c60a1673d5f1f785e71a36cfa308b8dfa45cf25d0'
 default['nexus_repository_manager']['sonatype']['path'] = '/opt/sonatype'
